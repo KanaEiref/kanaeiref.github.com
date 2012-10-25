@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/League_Gothic-webfont.eot');
+    src: url('../fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/League_Gothic-webfont.woff') format('woff'),
+         url('../fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('../fonts/League_Gothic-webfont.svg#LeagueGothic') format('svg');
+    font-weight: bold;
+    font-style:normal;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	
+	background-color: lightgray;
+
+}
+
+header{
+
+	padding: 0px;
+	margin: 0px;
+	border-style: none;
+}
+
+.topImages{
+	margin: 0px;
+	padding: 0px;
+	border-bottom-width: 0px;
+	border-spacing: 0px;
+	border-style: none;
+	width: 100%;
+}
+
+ul { 
+margin: 0px;
+padding: 0px;
+text-decoration:  none;}
+
+nav{
+	background-color: #2E2E2E;
+	margin:   0px;
+	padding:  0px;
+	width: 100%;
+	height: 60px;
+    color: green;
+    min-width: 960px;
+    max-width: 1600px;
+    margin-top: 0px;
+
+}
+
+nav li {
+	float: left;
+	margin: 12px 30px;
+	
+	font-family: LeagueGothic, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+	font-size: 1.6em;
+	text-decoration: none;
+	line-height: 30px;
+	display: inline;
+}
+
+nav a:link {
+	color: #f2f2f2;
+	text-decoration: none;
+	
+}
+
+nav a:visited{
+	color: #f2f2f2;
+	text-decoration:  none;
+}
+
+
+.clear{
+	clear: both;
+}
+
+#currentItem{
+	background-color: #088A08;
+	padding:13px 10px 15px 10px;
+	margin: 0px 20px;
+
+
+}
+ 
+/*li {
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+
+	display: inline;
+	float: left;
+	
+	padding-right: 3%;
+	padding-bottom: 14px;
+	padding-top:15px;
+	font-family: LeagueGothic, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+	font-size: 1.6em;
+	text-align: center;
+	min-width: 70px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #f2f2f2;
+		text-align: center;
+	
+	padding-left: 30%;
+	margin:0px;
+}*/
+
+#content{
+	max-width: 1600px;
+	min-width: 400px;
+	padding: 0px;
+
+
+	margin: 0px 0px 30px 0px;
+	padding-bottom: 20px;
+}
+
+#about {
+	width: 90%;
+	max-width: 1200px;
+	
+
+}
+
+#p1, #p2{
+	float: left;
+	
+	margin-right: 4%;
+	font-family: font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    text-align: justify;
+}
+
+#p1:first-letter{
+	font-size: 300%;
+}
+
+#p1 {
+	margin-left: 6%;
+	width: 40%;
+
+}
+
+#p2{
+	padding-top: 26px;
+	width: 30%;
+}
+
+
+#temp {
+	font-family: LeagueGothic;
+	font-size: : 5em;
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	left: 20px;
+
+}
+
+footer{
+	background-color: #088A08; 
+	clear: both;
+	height: 60px;
+}
+
+footer p{
+	padding-top: 13px;
+	font-size: 0.8em;
+	text-align: center;
+	color:lightgray ;
+}
+
+
+
+#weather2 {
+			background: #6f9dbe;
+			background: -webkit-gradient(linear, left top, left bottom, from(#adc7db), to(#6f9dbe));
+			background: -moz-linear-gradient(top, #b2bcc8, #adc7db);
+			width: 185px;
+			padding: 5px 40px 5px auto;
+			margin-top: 70px;
+			overflow: hidden;
+			border: 1px solid #6591b3;
+		}
+		
+		#weather2 h2 {
+			color: #000;
+			text-shadow: rgba(250, 250, 250, 0.6) 2px 2px 0;
+		}
+		
+		#weather2 p {
+			font-size: 25px;
+			margin: 30px 0 0;
+		}
+		
+		#weather2 p span {
+			font-size: 16px;
+		}
+		
+		#weather2 a:link, #weather2 a:active, #weather2 a:visited {
+			display: block;
+			clear: both;
+			text-decoration: none;
+			color: #222;
+			font-size: 12px;
+		}
+		
+		#weather2 a:hover {
+			color: #000;
+			text-decoration: underline;
+		}
+
